@@ -1,12 +1,31 @@
-# React + Vite
+# time-tracker-be
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Development
 
-Currently, two official plugins are available:
+### Project Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* "Node" 20.11.11+
+* "react" 19.0.0+
+* "react-dom" 19.0.0+
 
-## Expanding the ESLint configuration
+### IDE
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+We recommend you use Visual Studio Code
+
+## Installation & Running The App
+
+### `npm install <package_name>`
+
+Adds and installs a dependency or package to the project.
+
+### `npm install`
+
+Installs all React and Node dependencies based on the `package.json` contents.
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+### `npm build `
+Builds the project.
